@@ -1,0 +1,105 @@
+body {
+  font-family: "Times New Roman", serif;
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 60px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 0 4px 15px rgba(0,0,0,0.6);
+  padding: 10px 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .slide-title {
+    font-size: 32px;
+    letter-spacing: 1px;
+  }
+}
+h2 {
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif;
+}
+
+/*NAVBAR*/
+.nav-bar {
+  background-color: #660B05;
+  color: #FFF0C4;
+}
+
+.nav-bar a,
+.nav-bar button {
+  color: #FFF0C4 !important;
+}
+
+.nav-bar .w3-bar-item,
+.nav-bar .w3-button {
+  padding: 12px 20px !important;
+}
+
+/* dropdown background */
+.custom-dropdown {
+  background-color: #8C1007 !important;
+  color: #FFF0C4 !important;
+}
+
+/* slideshow */
+.slideshow-container {
+  margin-top: 45px;
+}
+
+/* EVENTS */
+.events-section {
+  width: 100%;
+  background: #660B05;
+  padding: 60px 20px;
+}
+
+.events-container {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+.events-container p { color: #FFF0C4; }
+
+.event-table {
+  border-radius: 4px;
+  padding: 0;
+}
+
+.event-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+}
+
+/* CONTACT */
+.contact-section {
+  background: #FFF0C4;
+  padding: 60px 20px;
+  width: 100%;
+}
+
+.contact-container {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.contact-title { color: #660B05; }
+
+/* FOOTER */
+.footer {
+  width: 100%;
+  background: #660B05;
+  text-align: center;
+  color: white;
+  padding: 18px 0;
+}
